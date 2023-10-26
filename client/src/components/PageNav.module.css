@@ -1,0 +1,87 @@
+/* PageNav.module.css */
+.nav {
+  /* padding: 0 10px; */
+  /* margin: 2rem; */
+  margin-top: 1rem;
+  background-color: #FFFFDD;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  right: 0; /* Align the navbar to the right side of the page */
+  height: 15vh;
+  z-index: 100;
+  /* background-color: red; */
+  width: 100%;
+  height: 4rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+/* Change font size for navbar links */
+.nav li {
+  font-size: 22px; /* Adjust the font size as needed */
+  font-weight: 200;
+  text-decoration: none;
+  color: white; /* Set link color */
+}
+a {
+  font-weight: 20;
+  color: #016A70;
+  text-decoration: inherit;
+}
+.nav li a {
+  position: relative;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Add transition for color and text-decoration */
+}
+
+.nav li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Start from the middle */
+  width: 0;
+  height: 2px; /* Underline height */
+  background-color: rgb(70, 139, 123); /* Underline color */
+  transition: width 0.3s ease-in-out; /* Transition effect for underline */
+  transform: translateX(-50%);
+}
+
+.nav li a:hover::before {
+  width: 100%; /* Full width on hover */
+}
+
+.nav li a:hover {
+  text-decoration: none; /* Remove default underline on hover */
+}
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 5;
+}
+
+.logoImage {
+  height: 50px; /* Set the logo height as needed */
+  width: auto; /* Allow the width to adjust proportionally */
+  margin-right: 15px; /* Add margin to separate logo from navigation items */
+}
+/* Add more styling properties as needed */
+.profileimage {
+  border-radius: 100px;
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+}

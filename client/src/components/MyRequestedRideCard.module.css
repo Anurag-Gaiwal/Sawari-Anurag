@@ -1,0 +1,10 @@
+/* MyPublishedRideCard.module.css */
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: auto; /* Change the width to 100% */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(239, 82, 82, 0.1);
+}

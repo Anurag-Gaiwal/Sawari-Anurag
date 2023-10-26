@@ -1,0 +1,44 @@
+/* MyPublishedRides.module.css */
+
+/* Style the container for all MyPublishedRideCards */
+.myPublishedRidesContainer {
+  color: #016a70;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; /* Add this line */
+}
+
+/* Style each individual MyPublishedRideCard */
+.myPublishedRideCard {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: calc(33.33% - 20px); /* Adjust the width based on your layout */
+  box-sizing: border-box; /* Add this line */
+}
+
+.myPublishedRideCard h2 {
+  color: #016a70;
+  font-size: 18px;
+  margin: 0;
+}
+
+.myPublishedRideCard p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.myPublishedRideCard button {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.myPublishedRideCard button:hover {
+  background: #0056b3;
+}

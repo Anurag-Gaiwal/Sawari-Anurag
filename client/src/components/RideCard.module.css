@@ -1,0 +1,32 @@
+/* RideCard.module.css */
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(239, 82, 82, 0.1);
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.passengers {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button{
+  padding-right: 20px;
+}

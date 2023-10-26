@@ -1,0 +1,45 @@
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  position: relative;
+  z-index: 1000;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.closeButton {
+  margin-bottom: 20px;
+  margin: 10px;
+  border: 0.5mm solid black;
+  padding: 10px;
+  color: #016A70;
+  /* position: relative; */
+  top: 10px;
+  left: 10px;
+  background-color: #FFFFDD;;
+  cursor: pointer;
+}
+
+.map {
+  height: 300px;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
+
+.mapContainer {
+  flex: 1;
+  height: 86vh;
+  background-color: var(--color-dark--2);
+}
+
+.map {
+  height: 100%;
+}

@@ -1,0 +1,24 @@
+/* App.css */
+*{
+  margin: auto;
+}
+
+.appcontainer {
+  position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.homepage {
+  background-color: #FFFFDD;;
+}
+
+.background-image {
+  /* width: 100%;
+  height: auto;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: -1;  */
+}
+
+
+

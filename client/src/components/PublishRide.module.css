@@ -1,0 +1,51 @@
+*{
+  font-family: 'Times New Roman';
+}
+
+.transparentFormContainer {
+  background-color: #195b61;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1.5px solid #ccc; /* Add border to the box */
+  width: 20rem;
+  position: relative;
+  top: 11rem;
+  left: 11rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #195b61;
+}
+.form input {
+  border: none;
+  border-bottom: 1px solid #104d34; /* Add underline */
+  padding: 8px;
+  background-color: transparent;
+  font-family: 'Times New Roman';
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.date {
+  color: rgb(255, 255, 255);
+}
+/* Customize button styles */
+.form button {
+  padding: 8px 15px;
+  background-color: #13836f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.backgroundCar {
+  height: 115%;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  position: relative;
+  top: -17rem;
+  left: 57rem;
+}
