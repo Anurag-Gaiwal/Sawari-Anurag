@@ -47,7 +47,7 @@ JWT_COOKIE_EXPIRES_IN=90
    ```
 
 4. **Open in Browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+   Navigate to [http://localhost:3000](http://localhost:5173) in your browser to view the application.
 
 ## Technologies Used
 
@@ -75,4 +75,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback, please contact Anurag at [your-anuraggaiwal0gmail.com](mailto:anuraggaiwal0gmail.com).
+For any inquiries or feedback, please contact Anurag at [anuraggaiwal0gmail.com](mailto:anuraggaiwal0gmail.com).
