@@ -47,7 +47,7 @@ JWT_COOKIE_EXPIRES_IN=90
    ```
 
 4. **Open in Browser:**
-   Navigate to [http://localhost:3000](http://localhost:5173) in your browser to view the application.
+   Navigate to [http://localhost:5173](http://localhost:5173) in your browser to view the application.
 
 ## Technologies Used
 
