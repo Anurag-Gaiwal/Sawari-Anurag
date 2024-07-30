@@ -75,4 +75,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback, please contact Anurag at [your-anuraggaiwal0gmail.com](mailto:your-anuraggaiwal0gmail.com).
+For any inquiries or feedback, please contact Anurag at [your-anuraggaiwal0gmail.com](mailto:anuraggaiwal0gmail.com).
